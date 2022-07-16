@@ -12,10 +12,10 @@ app.get('/', function(req , res){
 
 app.post('/' , function(req , res){
 
-var num1 = Number(req.body.num1);
-var num2 = Number(req.body.num2);
+var number1 = Number(req.body.num1);
+var number2 = Number(req.body.num2);
 
-var result = num1+num2;
+var result = number1+number2;
 
     res.send("The result of the calculation is " + result );
 })
