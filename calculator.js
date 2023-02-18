@@ -9,7 +9,7 @@ app.get('/', function(req , res){
     // res.send("hello saransh");
     res.sendFile(__dirname + "/index.html");
 });
-
+// post request
 app.post('/' , function(req , res){
 
 var num1 = Number(req.body.num1);
